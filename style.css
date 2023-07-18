@@ -12,6 +12,20 @@ body {
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-top: 30px;
     padding-left: 10%;
@@ -128,6 +142,153 @@ h2 {
     justify-content: space-between;
     letter-spacing: 159px;
     font-weight: bold;
+}
+
+.tocart {
+    width: 350px;
+    height: 50px;
+    margin-left: 20px;
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    font-size: large;
+}
+
+.icons {
+    margin: 20px;
+    margin-bottom: 36px;
+}
+
+.lasttext {
+    line-height: 35px;
+    margin-top: 100px;
+}
+
+.fa-regular {
+    margin: 10px;
+}
+
+.fa-solid {
+    margin: 10px;
+}
+
+.icons {
+    font-size: larger;
+}
+
+
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.checked {
+    color: orange;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.part {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+h2 {
+    margin: 30px;
+    font-size: 35px;
+}
+
+.desctext {
+    margin: 20px;
+    line-height: 30px;
+    font-size: larger;
+}
+
+.stars {
+    margin: 20px;
+}
+
+.price {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.add {
+    margin: 20px;
+}
+
+
+
+.icons {
+    margin-left: 20px;
+    margin-bottom: 36px;
+}
+
+.spectext {
+    line-height: 35px;
+}
+
+.left {
+    width: 800px;
+    height: 900px;
+    padding-left: 300px;
+}
+
+.right {
+    width: 900px;
+    height: 800px;
+    padding-left: 300px;
+}
+
+.spe {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.star4 {
+    padding-left: 5px;
+}
+
+.rev {
+    padding-left: 10px;
+}
+
+.add {
+    width: 350px;
+    height: 50px;
+    border-color: aliceblue;
 }
 
 .tocart {
