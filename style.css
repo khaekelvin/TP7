@@ -12,7 +12,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;* {
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -139,9 +139,9 @@ h2 {
     width: 350px;
     height: 50px;
     border-color: aliceblue;
-    justify-content: space-between;
-    letter-spacing: 159px;
     font-weight: bold;
+    letter-spacing: 159x;
+
 }
 
 .tocart {
@@ -174,12 +174,6 @@ h2 {
 
 .icons {
     font-size: larger;
-}
-
-
-    padding-top: 30px;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 nav ul li {
