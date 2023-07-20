@@ -303,3 +303,7 @@ h2 {
 .icons {
   font-size: larger;
 }
+
+.navlist .fa-location-arrow {
+  color: var(--check-color);
+}
