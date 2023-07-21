@@ -75,6 +75,7 @@ nav ul li a {
 .part {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 h2 {
@@ -109,18 +110,6 @@ h2 {
 
 .spectext {
   line-height: 35px;
-}
-
-.left {
-  width: 800px;
-  height: 900px;
-  padding-left: 300px;
-}
-
-.right {
-  width: 900px;
-  height: 800px;
-  padding-left: 200px;
 }
 
 .spe {
@@ -212,11 +201,6 @@ nav ul li a {
   flex-direction: row;
 }
 
-.part {
-  display: flex;
-  flex-direction: row;
-}
-
 h2 {
   margin: 30px;
   font-size: 35px;
@@ -249,18 +233,6 @@ h2 {
 
 .spectext {
   line-height: 35px;
-}
-
-.left {
-  width: 800px;
-  height: 900px;
-  padding-left: 300px;
-}
-
-.right {
-  width: 900px;
-  height: 800px;
-  padding-left: 200px;
 }
 
 .spe {
@@ -306,4 +278,111 @@ h2 {
 
 .navlist .fa-location-arrow {
   color: var(--check-color);
+}
+
+@media only screen and (min-width: 1137px) {
+  .part {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .part {
+    justify-content: center;
+  }
+  .desctext {
+    font-size: medium;
+  }
+  .navlist {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .desctext {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .desctext {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .desctext {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .desctext {
+    font-size: 12px;
+  }
+  .img {
+    width: 450px;
+  }
+  /*  .spec {
+    padding-top: 100px;
+  } */
+  .icons {
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .tp {
+    width: 400px;
+  }
+  .spec {
+    font-size: small;
+    padding-top: 7px;
+    padding-left: 60px;
+  }
+  .lasttext {
+    font-size: small;
+  }
+  nav {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .icons {
+    margin-left: 1px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .add {
+    width: 280px;
+    height: 50px;
+    font-weight: bold;
+    letter-spacing: 128px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .tocart {
+    width: 280px;
+    height: 50px;
+  }
+  .desctext {
+    font-size: 10px;
+    margin: 0px;
+    margin-left: 25px;
+  }
+  h2 {
+    font-size: large;
+    margin: 1px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: large;
+  }
+  .spe {
+    font-size: large;
+  }
+  .price {
+    margin: 2px;
+    margin-left: 30px;
+  }
+  .stars {
+    margin: 10px;
+  }
 }
