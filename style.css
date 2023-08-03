@@ -256,6 +256,10 @@ h2 {
   padding-left: 8px;
 }
 
+.add:hover {
+  background-color: rgb(211, 216, 216);
+}
+
 .icons {
   margin: 20px;
   margin-bottom: 36px;
