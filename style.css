@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   --check-color: rgb(255, 69, 0);
   --main-background-color: rgb(255, 255, 255);
@@ -74,8 +73,6 @@ nav ul li a {
 }
 
 .part {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -139,9 +136,14 @@ h2 {
   height: 50px;
   margin-left: 20px;
   color: var(--main-background-color);
-  background-color: var(--orange-deep);
+  background-color: rgb(255, 69, 0);
   border-color: var(--orange-deep);
   font-size: 25px;
+  border: none;
+}
+
+.tocart:hover {
+  background-color: rgb(196, 52, 0);
 }
 
 .icons {
@@ -151,7 +153,6 @@ h2 {
 
 .lasttext {
   line-height: 35px;
-  margin-top: 100px;
 }
 
 .fa-regular {
@@ -252,7 +253,7 @@ h2 {
 .add {
   width: 350px;
   height: 50px;
-  border-color: var(--border-color);
+  border: none;
 }
 
 .icons {
@@ -262,7 +263,7 @@ h2 {
 
 .lasttext {
   line-height: 35px;
-  margin-top: 100px;
+  margin-left: 100px;
 }
 
 .fa-regular {
@@ -337,6 +338,7 @@ h2 {
     font-size: small;
     padding-top: 7px;
     padding-left: 60px;
+    display: flex;
   }
   .lasttext {
     font-size: small;
@@ -358,6 +360,11 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .add:hover {
+    background-color: red;
+  }
+
   .tocart {
     width: 280px;
     height: 50px;
@@ -386,4 +393,25 @@ h2 {
   .stars {
     margin: 10px;
   }
+}
+
+.left {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.oof {
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+  font-size: larger;
+}
+
+button {
+  cursor: pointer;
 }
