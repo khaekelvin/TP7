@@ -13,4 +13,4 @@ For this challenge i re create ateenage engineering website figma design into a 
 ![tp7 recorder](https://github.com/khaekelvin/TP7/assets/130221570/4f100822-0d48-42da-9e7f-d120861269bf)
 
 ## Result
-![tp7 last](https://github.com/khaekelvin/TP7/assets/130221570/d52fcb45-b8f0-462b-818c-867670739db6)
+![new tp7](https://github.com/khaekelvin/TP7/assets/130221570/d197b9dd-6229-4b4b-a3c5-7b16022e4cec)
