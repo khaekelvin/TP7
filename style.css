@@ -305,3 +305,20 @@ h2 {
 button {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
