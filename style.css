@@ -316,6 +316,11 @@ button {
   }
   body {
     width: 100vh;
-    margin-left: 30px;
+  }
+  .left {
+    flex-direction: column;
+  }
+  .oof {
+    flex-direction: column;
   }
 }
