@@ -15,6 +15,10 @@
 body {
   background-color: var(--main-background-color);
   font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -83,6 +87,7 @@ h2 {
   margin: 20px;
   line-height: 30px;
   font-size: larger;
+  width: 500px;
 }
 
 .stars {
@@ -291,8 +296,6 @@ h2 {
 
 .container {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .oof {
@@ -306,11 +309,12 @@ button {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 375px) {
-  .container {
-    display: flex;
-    align-items: center;
-    /* justify-content: center;
-    align-items: center; */
+@media only screen and (max-width: 375px) {
+  img {
+    width: 400px;
+    height: 700px;
+  }
+  body {
+    width: 100vh;
   }
 }
