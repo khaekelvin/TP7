@@ -288,10 +288,6 @@ h2 {
   display: flex;
 }
 
-.container {
-  display: flex;
-}
-
 .oof {
   display: flex;
   flex-direction: row;
